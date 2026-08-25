@@ -1,0 +1,81 @@
+<svg width="680" height="900" viewBox="0 0 680 900" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Pet adoption and shelter management system use case diagram</title>
+<desc>UML use case diagram showing the Adoption Applicant and Shelter Staff actors connected to nine use cases inside a system boundary, including two include relationships and one extend relationship.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#444441" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+
+<rect width="680" height="900" fill="#ffffff"/>
+
+<rect x="170" y="50" width="340" height="810" rx="12" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="5,3"/>
+<text x="185" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">Pet adoption system</text>
+
+<g>
+<rect x="190" y="70" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="99" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Search pet catalog</text>
+</g>
+<g>
+<rect x="190" y="160" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="189" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Submit adoption application</text>
+</g>
+<g>
+<rect x="190" y="250" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="279" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Fill screening questionnaire</text>
+</g>
+<g>
+<rect x="190" y="340" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="369" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Schedule meet and greet</text>
+</g>
+<g>
+<rect x="190" y="430" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="459" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Log medical intake record</text>
+</g>
+<g>
+<rect x="190" y="520" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="549" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Update animal status</text>
+</g>
+<g>
+<rect x="190" y="610" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="639" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Review adoption application</text>
+</g>
+<g>
+<rect x="190" y="700" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="729" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Flag for home visit</text>
+</g>
+<g>
+<rect x="190" y="790" width="300" height="50" rx="25" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="340" y="819" font-family="Arial, sans-serif" font-size="14" fill="#0C447C" text-anchor="middle">Manage foster placement</text>
+</g>
+
+<line x1="340" y1="210" x2="340" y2="250" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+<text x="270" y="236" font-family="Arial, sans-serif" font-size="12" fill="#5F5E5A" text-anchor="middle">&lt;&lt;include&gt;&gt;</text>
+
+<line x1="340" y1="480" x2="340" y2="520" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+<text x="270" y="506" font-family="Arial, sans-serif" font-size="12" fill="#5F5E5A" text-anchor="middle">&lt;&lt;include&gt;&gt;</text>
+
+<line x1="340" y1="700" x2="340" y2="660" stroke="#5F5E5A" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+<text x="270" y="686" font-family="Arial, sans-serif" font-size="12" fill="#5F5E5A" text-anchor="middle">&lt;&lt;extend&gt;&gt;</text>
+
+<line x1="75" y1="215" x2="190" y2="95" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="75" y1="215" x2="190" y2="185" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="75" y1="215" x2="190" y2="365" stroke="#5F5E5A" stroke-width="1"/>
+
+<line x1="600" y1="567" x2="490" y2="365" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="600" y1="567" x2="490" y2="455" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="600" y1="567" x2="490" y2="635" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="600" y1="567" x2="490" y2="815" stroke="#5F5E5A" stroke-width="1"/>
+
+<circle cx="75" cy="185" r="8" fill="none" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="75" y1="193" x2="75" y2="217" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="61" y1="203" x2="89" y2="203" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="75" y1="217" x2="61" y2="237" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="75" y1="217" x2="89" y2="237" stroke="#2C2C2A" stroke-width="1.5"/>
+<text x="75" y="256" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A" text-anchor="middle">Adoption</text>
+<text x="75" y="270" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A" text-anchor="middle">applicant</text>
+
+<circle cx="600" cy="537" r="8" fill="none" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="600" y1="545" x2="600" y2="569" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="586" y1="555" x2="614" y2="555" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="600" y1="569" x2="586" y2="589" stroke="#2C2C2A" stroke-width="1.5"/>
+<line x1="600" y1="569" x2="614" y2="589" stroke="#2C2C2A" stroke-width="1.5"/>
+<text x="600" y="608" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A" text-anchor="middle">Shelter</text>
+<text x="600" y="622" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A" text-anchor="middle">staff</text>
+</svg>
